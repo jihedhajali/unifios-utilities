@@ -2,7 +2,7 @@
 
 ## configuration variables:
 VLAN=7
-IPV4_IP="192.168.7.3"
+IPV4_IP="192.168.7.10"
 # This is the IP address of the container. You may want to set it to match
 # your own network structure such as 192.168.5.3 or similar.
 IPV4_GW="192.168.7.1/24"

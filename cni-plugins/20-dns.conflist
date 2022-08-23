@@ -1,17 +1,17 @@
 {
   "cniVersion": "0.4.0",
-  "name": "dns",
+  "name": "pihole",
   "plugins": [
     {
       "type": "macvlan",
       "mode": "bridge",
-      "master": "br5",
-      "mac": "00:1c:b4:a8:67:b6",
+      "master": "br7",
+      "mac": "00:1c:b4:c2:bf:d5",
       "ipam": {
         "type": "static",
         "addresses": [
           {
-            "address": "192.168.7.3/24",
+            "address": "192.168.7.10/24",
             "gateway": "192.168.7.1"
           }
         ],
